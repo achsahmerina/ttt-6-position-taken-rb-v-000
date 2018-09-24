@@ -1,4 +1,4 @@
-ttt_board = [" "," "," "," ","X"," "," "," ",""]
+ttt_board = [" "," "," "," ","X"," "," "," "," "]
 def position_taken(board, index)
   (board[index] ==  " " || board[index] == "" || board[index] == nil) ?
     false : true

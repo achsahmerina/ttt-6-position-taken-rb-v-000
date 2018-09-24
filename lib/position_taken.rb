@@ -1,2 +1,5 @@
-def position_taken(board, position, char)
+ttt_board = [" "," "," "," ","X"," "," "," ",""]
+def position_taken(board, index)
+  (board[index] ==  " " || board[index] == "" || board[index] == nil) ?
+    false : true
 end

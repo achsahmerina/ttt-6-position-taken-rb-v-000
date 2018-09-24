@@ -1,6 +1,6 @@
 ttt_board = [" "," "," "," ","X"," "," "," "," "]
 def position_taken(board, index)
-  (board[index] ==  " " || board[index] == "" || board[index] == nil) 
+  (board[index] ==  " " || board[index] == " " || board[index] == nil) 
     false : true
     puts position_taken?(ttt_board, 0)
     puts position_taken?(ttt_board, 1)
